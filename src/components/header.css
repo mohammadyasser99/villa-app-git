@@ -1,0 +1,53 @@
+.villa{
+    color: black !important;
+}
+.villa:hover{
+    color: orangered !important;
+}
+
+
+.active{
+    color: orangered !important;
+    background: white !important;
+
+}
+
+.nav-link {
+    color: black ;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    transition: var(--mainTransition);
+    letter-spacing: var(--mainSpacing);
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 0.5rem;
+    &:hover{
+        background: var(--primaryColor);
+        color: var(--mainWhite);
+        padding: 0.5rem 1rem 0.5rem 1.3rem;
+    }
+    @media (min-width: 768px){
+        &:hover{
+            padding: 0.5rem 1rem;
+        }
+    }
+}
+
+
+
+.navbar-brand{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    &:hover{
+        color: var(--primaryColor);
+    }
+}
+
+.navbar{
+    background-color: white !important;
+}
+#home{
+    color: orange !important;
+}
